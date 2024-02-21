@@ -1,0 +1,112 @@
+.main-contact {
+    background-color: #020202;
+    padding: 20px 50px;
+    display: flex;
+  }
+  
+  .main-contact .locationo-map {
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  .main-contact .locationo-map iframe {
+    width: 80%;
+    height: 450px;
+  }
+  
+  .main-contact .contact-us-content {
+    width: 50%;
+    padding: 40px;
+    padding-left: 80px;
+    color: #fff;
+  }
+  
+  .main-contact .contact-us-content .contact-us {
+    .contact-text {
+      font-size: 80px;
+      color: #fff;
+      font-family: "Playball" !important;
+      margin: 0;
+    }
+  
+    .contact-sub {
+      margin: 0;
+    }
+  }
+  
+  .main-contact .contact-us-content .call-main {
+    display: flex;
+    align-items: center;
+    padding-top: 30px;
+    gap: 15px;
+  
+    .icon {
+      height: 50px;
+      width: 50px;
+    }
+  
+    p {
+      margin: 0;
+    }
+  
+    .bold-text {
+      font-weight: bold;
+    }
+  
+    .yellow-text {
+      color: #ffaa00;
+    }
+  }
+  
+  .main-contact .contact-us-content .image-contact {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    padding-top: 20px;
+  
+    img {
+      width: 200px;
+    }
+  }
+  
+  @media (max-width: 1200px) {
+    .main-contact .contact-us-content .contact-text {
+      font-size: 40px !important;
+    }
+  
+    .main-contact .contact-us-content .contact-sub {
+      font-size: 14px;
+    }
+  }
+  
+  @media (max-width: 991px) {
+    .main-contact {
+      padding: 0 30px;
+    }
+  }
+  
+  @media (max-width: 785px) {
+    .main-contact {
+      padding: 0 20px;
+      flex-direction: column;
+    }
+  
+    .main-contact .locationo-map {
+      width: 100% !important;
+  
+      iframe {
+        width: 100% !important;
+      }
+    }
+  
+    .main-contact .contact-us-content {
+      width: 100% !important;
+      align-items: center;
+      padding: 20px !important;
+    }
+  
+    .main-contact .image-contact {
+      width: 100% !important;
+    }
+  }
